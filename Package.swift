@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyBase64",
     products: [
-        .library(name:"SwiftyBase64", type:.dynamic, targets:["SwiftyBase64"]),
+        .library(name:"SwiftyBase64", targets:["SwiftyBase64"]),
     ],
     dependencies: [],
     targets: [
